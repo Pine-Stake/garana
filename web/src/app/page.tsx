@@ -46,13 +46,21 @@ export default function HomePage() {
                 </h1>
               </Link>
             </div>
-            <div>
+            <div className="flex gap-4">
               <Link href="/mint">
                 <Button
                   size="lg"
                   className="bg-transparent border-2 border-brand-white text-brand-white hover:bg-brand-white hover:text-brand-black font-sans text-lg px-8 py-2 h-auto rounded cursor-pointer"
                 >
                   mint
+                </Button>
+              </Link>
+              <Link href="/nft">
+                <Button
+                  size="lg"
+                  className="bg-transparent border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-black font-sans text-lg px-8 py-2 h-auto rounded cursor-pointer"
+                >
+                  NFT Platform
                 </Button>
               </Link>
             </div>

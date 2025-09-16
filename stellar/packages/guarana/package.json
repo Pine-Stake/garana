@@ -1,0 +1,22 @@
+{
+  "version": "0.0.0",
+  "name": "guarana",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "create-collection": "node scripts/create-collection.js",
+    "mint": "node scripts/mint-nft.js",
+    "transfer": "node scripts/transfer-nft.js",
+    "query": "node scripts/query.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^14.1.1",
+    "buffer": "6.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
